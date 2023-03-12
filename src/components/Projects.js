@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[8.2rem] px-[1rem] xl:pl-[19.3rem] xl:pb-[18rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] xl:pt-[8.2rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -64,7 +64,7 @@ export default function Projects() {
           <div className={"pt-[1rem] pl-[4rem]"}>
             <p
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] w-[17vw] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] w-[22vw] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
               }
             >
               router
