@@ -18,7 +18,7 @@ export default function Skills() {
         >
           <div className={"flex-col "}>
             <img
-              className={"xl:pt-[5.6rem] xl:pl-[1rem] w-[15vw] "}
+              className={"xl:pt-[5.6rem] xl:pl-[1rem]  "}
               src={"./img/js-logo.png"}
             />
             <p className={"tracking-normal font-['Inter'] xl:mt-[1rem] "}>
@@ -27,15 +27,12 @@ export default function Skills() {
           </div>
 
           <div>
-            <img
-              className={"xl:pt-[5.6rem] w-[15vw]"}
-              src={"./img/Rectangle 35.png"}
-            />
+            <img className={"xl:pt-[5.6rem] "} src={"./img/Rectangle 35.png"} />
             <p className={"xl:mt-[1rem]"}>REACT</p>
           </div>
           <div>
             <img
-              className={"xl:pt-[5.6rem]  w-[15vw]"}
+              className={"xl:pt-[5.6rem]  "}
               src={"./img/redux.png"}
               link={""}
             />
@@ -44,7 +41,7 @@ export default function Skills() {
           <div>
             {" "}
             <img
-              className={"xl:pt-[5.6rem]  w-[15vw]"}
+              className={"xl:pt-[5.6rem]  "}
               src={"./img/node.png"}
               link={""}
             />
@@ -53,7 +50,7 @@ export default function Skills() {
           <div>
             {" "}
             <img
-              className={"xl:pt-[5.6rem]  w-[15vw]"}
+              className={"xl:pt-[5.6rem] "}
               src={"./img/vscode.png"}
               link={""}
             />
@@ -61,7 +58,7 @@ export default function Skills() {
           </div>
           <div>
             <img
-              className={"xl:pt-[5.6rem]  w-[15vw]"}
+              className={"xl:pt-[5.6rem] "}
               src={"./img/figma.png"}
               link={""}
             />
