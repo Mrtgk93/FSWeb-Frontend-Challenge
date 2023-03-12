@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className={"xl:w-[144rem]  xl:h-[49rem]"}>
+    <div className={"xl:w-[144rem] px-[1rem] xl:px[0rem]  xl:h-[49rem]"}>
       <div
         className={
           "xl:pb-[13rem] pt-[2rem] xl:pt-[8rem] xl:pr-[26rem] xl:pl-[25.9rem]"
@@ -15,12 +15,12 @@ export default function Skills() {
         </p>
         <div
           className={
-            "flex font-[500] text-[#777777] text-[1rem] xl:text-[2.4rem] justify-between leading-[36px] "
+            "flex flex-wrap  font-[500] text-[#777777] text-[1rem] xl:text-[2.4rem] justify-between leading-[36px] "
           }
         >
           <div className={"flex-col "}>
             <img
-              className={"xl:pt-[5.6rem] xl:pl-[1rem]  "}
+              className={"xl:pt-[5.6rem]  xl:pl-[1rem]   "}
               src={"./img/js-logo.png"}
             />
             <p className={"tracking-normal font-['Inter'] xl:mt-[1rem] "}>
@@ -43,7 +43,7 @@ export default function Skills() {
           <div>
             {" "}
             <img
-              className={"xl:pt-[5.6rem]  "}
+              className={"xl:pt-[5.6rem] "}
               src={"./img/node.png"}
               link={""}
             />
@@ -52,7 +52,7 @@ export default function Skills() {
           <div>
             {" "}
             <img
-              className={"xl:pt-[5.6rem] "}
+              className={"xl:pt-[5.6rem]"}
               src={"./img/vscode.png"}
               link={""}
             />
@@ -60,7 +60,7 @@ export default function Skills() {
           </div>
           <div>
             <img
-              className={"xl:pt-[5.6rem] "}
+              className={"xl:pt-[5.6rem]"}
               src={"./img/figma.png"}
               link={""}
             />

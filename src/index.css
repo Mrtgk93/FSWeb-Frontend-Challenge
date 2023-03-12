@@ -141,6 +141,7 @@ code {
   font-family: "Inter", sans-serif;
   font-family: "Playfair Display", serif;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
