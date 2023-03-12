@@ -16,7 +16,7 @@ export default function Profile() {
         <div className={"flex xl:pt-[3.6rem]  xl:flex-row  flex-col "}>
           <div
             className={
-              "flex xl:w-[34vw] w-[90vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.1rem] xl:bg-white bg-[#3e8c9392] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
+              "flex xl:w-[34vw] w-[90vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.1rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
             }
           >
             <p

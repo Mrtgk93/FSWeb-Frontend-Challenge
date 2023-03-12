@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div
       className={
-        "flex-col-reverse px-[2rem]  flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+        "flex-col-reverse px-[2rem]  flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
       <div className={"text-left xl:pl-[1.6rem] pt-[2rem] xl:w-[65%]"}>
@@ -83,7 +83,7 @@ export default function Hero() {
 
         <img
           className={
-            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem] mr-[5rem] shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
+            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem] xl:mr-[0rem] mr-[5.3rem] shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
           src="./img/tonymontana_ape.png"
           alt="Image description"
