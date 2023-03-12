@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Hero />
       <Skills />
-      {/*  <Profile />
-      <Projects /> */}
+      <Profile />
+      {/* <Projects /> */}
     </div>
   );
 }

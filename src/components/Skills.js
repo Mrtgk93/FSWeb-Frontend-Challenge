@@ -1,8 +1,10 @@
 export default function Skills() {
   return (
-    <div className={"xl:w-[144rem] xl:h-[49rem]"}>
+    <div className={"xl:w-[144rem]  xl:h-[49rem]"}>
       <div
-        className={"xl:pb-[13rem] xl:pt-[8rem] xl:pr-[26rem] xl:pl-[25.9rem]"}
+        className={
+          "xl:pb-[13rem] pt-[2rem] xl:pt-[8rem] xl:pr-[26rem] xl:pl-[25.9rem]"
+        }
       >
         <p
           className={
