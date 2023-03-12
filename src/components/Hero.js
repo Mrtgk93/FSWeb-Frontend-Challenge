@@ -71,9 +71,7 @@ export default function Hero() {
         </p>
       </div>
       <div
-        className={
-          "flex xl:h-[39%] xl:w-[35vw] sm:w-[20rem] sm:h-[20rem] pt-[5.6rem]  justify-end"
-        }
+        className={"flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem]  justify-center"}
       >
         {/* <div
           className={
@@ -83,7 +81,7 @@ export default function Hero() {
 
         <img
           className={
-            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem] xl:mr-[0rem] mr-[5.3rem] shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
+            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
           src="./img/tonymontana_ape.png"
           alt="Image description"
