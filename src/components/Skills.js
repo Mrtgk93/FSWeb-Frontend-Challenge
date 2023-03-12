@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className={"xl:w-[144rem] px-[1rem] xl:px[0rem]  xl:h-[49rem]"}>
+    <div className={"xl:w-[144rem] px-[.5rem] xl:px[0rem]  xl:h-[49rem]"}>
       <div
         className={
           "xl:pb-[13rem] pt-[2rem] xl:pt-[8rem] xl:pr-[26rem] xl:pl-[25.9rem]"
@@ -15,7 +15,7 @@ export default function Skills() {
         </p>
         <div
           className={
-            "flex flex-wrap  font-[500] text-[#777777] text-[1rem] xl:text-[2.4rem] justify-between leading-[36px] "
+            "flex flex-wrap  font-[500] text-[#777777] text-[1.5rem] xl:text-[2.4rem] justify-between leading-[36px] "
           }
         >
           <div className={"flex-col "}>
