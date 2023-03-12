@@ -85,7 +85,7 @@ export default function Hero() {
           className={
             " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem] mr-[5rem] shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
-          src="./img/tonymontana_ape.PNG"
+          src="./img/tonymontana_ape.png"
           alt="Image description"
         />
       </div>
