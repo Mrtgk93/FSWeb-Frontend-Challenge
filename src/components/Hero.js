@@ -31,7 +31,7 @@ export default function Hero() {
           </span>
           developer. I can craft solid and scalable frontend products. <br />
           Let’s meet! <br />
-          <div className={"flex xl:mt-[0rem] mt-[2rem]"}>
+          <div className={"flex gap-[2rem] xl:mt-[0rem] mt-[2rem]"}>
             <a
               target="_blank"
               href="https://tr.linkedin.com/in/mert-g%C3%B6k-503563142"
@@ -46,7 +46,7 @@ export default function Hero() {
             </a>
             <a target="_blank" href="https://github.com/Mrtgk93">
               <img
-                className={"xl:mt-[5.6rem] ml-[2rem]"}
+                className={"xl:mt-[5.6rem] "}
                 width="34"
                 height="36.14"
                 src={"https://cdn-icons-png.flaticon.com/512/2111/2111432.png"}
@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
           <p
             className={
-              "text-[1.8rem] leading-[3.2rem] font-['Inter'] tracking-wider mt-[2.5rem]"
+              "text-[1.8rem] leading-[3.2rem] font-['Inter'] tracking-wider  xl:mt-[2.5rem]"
             }
           >
             Currently <span className={" text-[#AF0C48]"}>Freelancing</span> for

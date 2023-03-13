@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18.4rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -72,7 +72,7 @@ export default function Projects() {
           </div>
           <div
             className={
-              "flex  pl-[2rem] justify-between xl:pr-[4rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
+              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
             }
           >
             <a
@@ -160,7 +160,7 @@ export default function Projects() {
           </div>
           <div
             className={
-              "flex  pl-[2rem] justify-between xl:pr-[4rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
+              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
             }
           >
             <a
@@ -187,7 +187,7 @@ export default function Projects() {
       </div>
       <div
         className={
-          "flex justify-center xl:w-[74vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[11.8rem]  "
+          "flex justify-center xl:w-[78.3vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[10.9rem]  "
         }
       >
         <div>
@@ -200,7 +200,7 @@ export default function Projects() {
             <span>
               <div
                 className={
-                  "xl:w-[27.5rem] w-[6.5rem] mt-[-.6rem] ml-[3.1rem] mb-[-1.5rem] h-[.4rem] xl:h-[1.8rem] bg-[#82BBFF] rounded-[.4rem] xl:ml-[13.3rem] xl:mb-[-7.2rem] xl:mt-[-2.2rem]"
+                  "xl:w-[27rem] w-[6.5rem] mt-[-.6rem] ml-[3.1rem] mb-[-1.5rem] h-[.4rem] xl:h-[1.8rem] bg-[#82BBFF] rounded-[.4rem] xl:ml-[13rem] xl:mb-[-6.1rem] xl:mt-[-2.2rem]"
                 }
               ></div>
             </span>{" "}

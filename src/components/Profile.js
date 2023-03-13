@@ -64,7 +64,7 @@ export default function Profile() {
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[50vw] xl:w-[10.3vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[43vw] xl:w-[10.3vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     Eğitim Durumu
@@ -97,7 +97,7 @@ export default function Profile() {
               </div>
             </div>
           </div>
-          <div className={"xl:w-[36.5vw] w-[96vw] "}>
+          <div className={"xl:w-[36.5vw] w-[94vw] "}>
             <div className={"xl:pl-[7rem] pl-[2rem] text-left pt-[3.7rem] "}>
               <p
                 className={
