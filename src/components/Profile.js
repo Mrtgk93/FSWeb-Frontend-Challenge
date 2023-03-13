@@ -8,7 +8,7 @@ export default function Profile() {
       <div className={"flex  flex-col"}>
         <p
           className={
-            "font-['Inter'] font-[500] text-[3.6rem] pb-[1rem] xl:pb-[0rem] tracking-[0.1rem] leading-[4.357rem]"
+            "font-['Inter']  font-[500] xl:pl-[1.7rem] text-[3.6rem] pb-[1rem] xl:pb-[0rem] tracking-[0.1rem] leading-[4.357rem]"
           }
         >
           Profile
@@ -16,7 +16,7 @@ export default function Profile() {
         <div className={"flex xl:pt-[3.6rem]  xl:flex-row  flex-col "}>
           <div
             className={
-              "flex xl:w-[34vw] w-[90vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.1rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
+              "flex xl:w-[34.5vw] w-[90vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.3rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
             }
           >
             <p
@@ -30,7 +30,7 @@ export default function Profile() {
               <div className={"flex "}>
                 <p
                   className={
-                    "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                    "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                   }
                 >
                   Doğum Tarihi
@@ -47,7 +47,7 @@ export default function Profile() {
                 <div className={"flex pt-[2.1rem]"}>
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     İkamet Şehri
@@ -64,7 +64,7 @@ export default function Profile() {
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[50vw] xl:w-[12vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[50vw] xl:w-[10.3vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     Eğitim Durumu
@@ -81,7 +81,7 @@ export default function Profile() {
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     Tercih Ettiği Rol
@@ -97,8 +97,8 @@ export default function Profile() {
               </div>
             </div>
           </div>
-          <div className={"xl:w-[34vw] w-[96vw] "}>
-            <div className={"xl:pl-[5.6rem] pl-[2rem] text-left pt-[3.7rem] "}>
+          <div className={"xl:w-[36.5vw] w-[96vw] "}>
+            <div className={"xl:pl-[7rem] pl-[2rem] text-left pt-[3.7rem] "}>
               <p
                 className={
                   "text-[2.4rem]  font-[400] leading-[3.2rem] tracking-[0.01em] font-['Playfair_Display']"
@@ -113,11 +113,19 @@ export default function Profile() {
                   }
                 ></div>
               </span>
-              <p className={"pt-[3.4rem] font text-[1.8rem]"}>
+              <p
+                className={
+                  "pt-[3.4rem] font-['Inter'] font-[400] text-[1.8rem]"
+                }
+              >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
                 aut, odit laborum aliquam voluptatum nisi mollitia.{" "}
               </p>{" "}
-              <p className={"pt-[2rem] font text-[1.8rem]"}>
+              <p
+                className={
+                  "pt-[2.5rem] font-['Inter'] font-[400] text-[1.8rem]"
+                }
+              >
                 {" "}
                 Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
                 deserunt quam temporibus cumque magnam!

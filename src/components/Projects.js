@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[8.2rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -88,10 +88,10 @@ export default function Projects() {
               target="_blank"
               href="https://mg-diziler.vercel.app/"
               className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2rem] xl:pr-[0rem] leading-[3rem] "
+                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
               }
             >
-              Go to App->
+              Go to app->
             </a>
           </div>
           <div className={" pt-[3.5rem] xl:pt-[8.3rem]"}>
@@ -117,7 +117,9 @@ export default function Projects() {
             <br /> ratione soluta aperiam sit voluptate? Dicta quod
             <br /> deserunt quam temporibus cumque magnam!
           </p>
-          <div className={"flex pl-[4rem] gap-[.9rem] pt-[2.7rem]"}>
+          <div
+            className={"flex pl-[4rem] gap-[.9rem] xl:pt-[1.8rem] pt-[2.7rem]"}
+          >
             <p
               className={
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
@@ -172,10 +174,10 @@ export default function Projects() {
             <a
               href=""
               className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2rem] xl:pr-[0rem] leading-[3rem] "
+                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
               }
             >
-              Go to App->
+              Go to app->
             </a>
           </div>
           <div className={"  pt-[3.5rem]"}>
@@ -185,7 +187,7 @@ export default function Projects() {
       </div>
       <div
         className={
-          "flex justify-center xl:w-[74vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[12.9rem]  "
+          "flex justify-center xl:w-[74vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[11.8rem]  "
         }
       >
         <div>
@@ -194,7 +196,7 @@ export default function Projects() {
               "xl:text-[4.2rem] font-['Inter'] font-[500] pt-[1rem] xl-[0rem] xl:leading-[6.3rem] tracking-[0.01em] text-right"
             }
           >
-            Let's Work Together on
+            Let's work together on
             <span>
               <div
                 className={

@@ -5,7 +5,9 @@ export default function Hero() {
         "flex-col-reverse px-[2rem]  flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
-      <div className={"text-left xl:pl-[1.6rem] pt-[2rem] xl:w-[65%]"}>
+      <div
+        className={"text-left xl:pl-[1.6rem] xl:pt-[0rem] pt-[2rem] xl:w-[65%]"}
+      >
         <p
           className={
             " font-['Inter'] tracking-widest text-[2rem] leading-[4rem] xl:text-[3rem] xl:mb-[2rem] "
@@ -29,7 +31,7 @@ export default function Hero() {
           </span>
           developer. I can craft solid and scalable frontend products. <br />
           Let’s meet! <br />
-          <div className={"flex mt-[2rem]"}>
+          <div className={"flex xl:mt-[0rem] mt-[2rem]"}>
             <a
               target="_blank"
               href="https://tr.linkedin.com/in/mert-g%C3%B6k-503563142"
@@ -53,7 +55,7 @@ export default function Hero() {
           </div>
           <p
             className={
-              "text-[1.8rem] leading-[3.2rem] font-['Inter'] tracking-wider mt-[2.1rem]"
+              "text-[1.8rem] leading-[3.2rem] font-['Inter'] tracking-wider mt-[2.5rem]"
             }
           >
             Currently <span className={" text-[#AF0C48]"}>Freelancing</span> for
@@ -71,7 +73,9 @@ export default function Hero() {
         </p>
       </div>
       <div
-        className={"flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem]  justify-center"}
+        className={
+          "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end  justify-center"
+        }
       >
         {/* <div
           className={
