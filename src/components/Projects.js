@@ -24,21 +24,22 @@ export default function Projects() {
         >
           <p
             className={
-              "font-['Playfair_Display'] pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
+              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
             }
           >
             Random Jokes
           </p>
           <p
             className={
-              "pl-[4rem] pt-[1.9rem] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
+              " pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
             }
           >
-            Lorem ipsum, dolor sit amet consectetur
-            <br /> adipisicing elit. Veniam aut, odit laborum aliquam
-            <br /> voluptatum nisi mollitia.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            aut, odit laborum aliquam voluptatum nisi mollitia.
           </p>
-          <div className={"flex pl-[4rem] gap-[.9rem] pt-[2.7rem]"}>
+          <div
+            className={"flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"}
+          >
             <p
               className={
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
@@ -61,7 +62,7 @@ export default function Projects() {
               axios
             </p>
           </div>
-          <div className={"pt-[1rem] pl-[4rem]"}>
+          <div className={"pt-[1rem] pl-[2rem] xl:pl-[4rem]"}>
             <p
               className={
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] w-[22vw] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
@@ -101,24 +102,25 @@ export default function Projects() {
         <div className={" w-[95vw] xl:w-[38vw] rounded-[1.2rem] bg-[#D9F6F1]"}>
           <p
             className={
-              "font-['Playfair_Display'] pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
+              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
             }
           >
             Are you bored?
           </p>
           <p
             className={
-              "pl-[4rem] pt-[1.9rem] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
+              "pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
             }
           >
-            Lorem ipsum, dolor sit amet consectetur
-            <br /> adipisicing elit. Veniam aut, odit laborum aliquam
-            <br /> voluptatum nisi mollitia minima accusamus
-            <br /> ratione soluta aperiam sit voluptate? Dicta quod
-            <br /> deserunt quam temporibus cumque magnam!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus
+            ratione soluta aperiam sit voluptate? Dicta quod deserunt quam
+            temporibus cumque magnam!
           </p>
           <div
-            className={"flex pl-[4rem] gap-[.9rem] xl:pt-[1.8rem] pt-[2.7rem]"}
+            className={
+              "flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] xl:pt-[1.8rem] pt-[2.7rem]"
+            }
           >
             <p
               className={
@@ -142,7 +144,7 @@ export default function Projects() {
               axios
             </p>
           </div>
-          <div className={" flex pt-[1rem] gap-[.9rem] pl-[4rem]"}>
+          <div className={" flex pt-[1rem] gap-[.9rem] pl-[2rem] xl:pl-[4rem]"}>
             <p
               className={
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
