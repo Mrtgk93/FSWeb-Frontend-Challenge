@@ -2,11 +2,13 @@ export default function Hero() {
   return (
     <div
       className={
-        "flex-col-reverse px-[2rem]  flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+        "flex-col-reverse px-[2rem]   flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
       <div
-        className={"text-left xl:pl-[1.6rem] xl:pt-[0rem] pt-[2rem] xl:w-[65%]"}
+        className={
+          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[82vw] xl:w-[50vw]"
+        }
       >
         <p
           className={
@@ -29,8 +31,8 @@ export default function Hero() {
               }
             ></div>
           </span>
-          developer. I can craft solid and scalable frontend products. <br />
-          Let’s meet! <br />
+          developer. I can craft solid and scalable frontend products. Let’s
+          meet!
           <div className={"flex gap-[2rem] xl:mt-[0rem] mt-[2rem]"}>
             <a
               target="_blank"
@@ -55,7 +57,7 @@ export default function Hero() {
           </div>
           <p
             className={
-              "text-[1.8rem] leading-[3.2rem] font-['Inter'] tracking-wider  xl:mt-[2.5rem]"
+              "xl:text-[1.8rem] text-[1.1rem] xl:leading-[3.2rem] font-['Inter'] xl:tracking-wider mt-[1rem]  xl:mt-[2.5rem]"
             }
           >
             Currently <span className={" text-[#AF0C48]"}>Freelancing</span> for
