@@ -2,7 +2,7 @@ export default function Profile() {
   return (
     <div
       className={
-        "bg-[#F4F4F4] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[2rem] xl:pr-[21.6rem]"
+        "bg-[#F4F4F4] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[1.5rem] xl:px-[2rem] xl:pr-[21.6rem]"
       }
     >
       <div className={"flex  flex-col"}>
@@ -97,8 +97,8 @@ export default function Profile() {
               </div>
             </div>
           </div>
-          <div className={"xl:w-[36.5vw] w-[94vw] "}>
-            <div className={"xl:pl-[7rem] pl-[2rem] text-left pt-[3.7rem] "}>
+          <div className={"xl:w-[36.5vw] w-[88vw] "}>
+            <div className={"xl:pl-[7rem] pl-[1.5rem] text-left pt-[3.7rem] "}>
               <p
                 className={
                   "text-[2.4rem]  font-[400] leading-[3.2rem] tracking-[0.01em] font-['Playfair_Display']"
