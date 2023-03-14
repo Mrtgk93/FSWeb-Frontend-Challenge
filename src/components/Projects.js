@@ -19,7 +19,7 @@ export default function Projects() {
       >
         <div
           className={
-            "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem] bg-[#DDEEFE]"
+            "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem]  bg-[#DDEEFE]"
           }
         >
           <p

@@ -123,7 +123,7 @@ export default function Profile() {
               </p>{" "}
               <p
                 className={
-                  "pt-[2.5rem] font-['Inter'] font-[400] text-[1.8rem]"
+                  "pt-[2.5rem]  font-['Inter'] font-[400] text-[1.8rem]"
                 }
               >
                 {" "}
