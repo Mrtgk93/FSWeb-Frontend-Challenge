@@ -23,11 +23,11 @@ export default function Hero() {
             " font-['Inter'] xl:tracking-[.01em] font-[500] text-[2rem] xl:text-[4.2rem] xl:leading-[6.4rem] "
           }
         >
-          I’m Almila. I’m a full-stack{" "}
+          I’m Mert. I’m a front-end{" "}
           <span>
             <div
               className={
-                "xl:w-[14.4rem] w-[9rem] ml-[-1rem] mt-[-1.4rem] mb-[-.7rem] h-[2rem] xl:h-[3.2rem] bg-[#E92577] rounded xl:ml-[-1rem]xl:mb-[-7.2rem] xl:mt-[-2.8rem]"
+                "xl:w-[15.3rem] w-[8rem] ml-[-1rem] mt-[-1.4rem] mb-[-.7rem] h-[2rem] xl:h-[3.2rem] bg-[#FF6961] rounded xl:ml-[-1rem]xl:mb-[-7.2rem] xl:mt-[-2.8rem]"
               }
             ></div>
           </span>
@@ -69,7 +69,7 @@ export default function Hero() {
             <br />
             Invite me to join your team ->{" "}
             <span className={" text-[#AF0C48] underline underline-offset-4"}>
-              pratamaiosi@gmail.com
+              <a href="mailto:mrtgk93@hotmail.com"> mrtgk93@hotmail.com</a>
             </span>
           </p>
         </p>
@@ -89,7 +89,7 @@ export default function Hero() {
           className={
             " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
-          src="./img/tonymontana_ape.png"
+          src="./img/b1455ac9-ecbb-4385-91f4-957c77f9aa44.JPG"
           alt="Image description"
         />
       </div>

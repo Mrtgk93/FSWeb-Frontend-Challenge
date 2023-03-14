@@ -16,7 +16,7 @@ export default function Profile() {
         <div className={"flex xl:pt-[3.6rem]  xl:flex-row  flex-col "}>
           <div
             className={
-              "flex xl:w-[34.5vw] w-[90vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.3rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
+              "flex xl:w-[34.5vw] w-[92vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.3rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
             }
           >
             <p
@@ -30,10 +30,10 @@ export default function Profile() {
               <div className={"flex "}>
                 <p
                   className={
-                    "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                    "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                   }
                 >
-                  Doğum Tarihi
+                  Date of birth
                 </p>
                 <p
                   className={
@@ -47,44 +47,44 @@ export default function Profile() {
                 <div className={"flex pt-[2.1rem]"}>
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    İkamet Şehri
+                    City of Residence
                   </p>
                   <p
                     className={
                       "text-[1.8rem] font-['Inter'] w-[52%] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    İstanbul
+                    Istanbul
                   </p>
                 </div>
-                <div className={"flex pt-[2.1rem]"}>
+                <div className={"flex  pt-[2.1rem]"}>
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[43vw] xl:w-[10.3vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[43vw] xl:w-[12vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Eğitim Durumu
+                    Education Status
                   </p>
                   <p
                     className={
-                      "text-[1.8rem] font-['Inter'] w-[55vw] xl:w-[15vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font-['Inter'] w-[46vw] xl:w-[15vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Hacettepe Ünv. Biyoloji Lisans, 2016
+                    Gazi Uni Energy Eng. B.Sc. 2017
                   </p>
                 </div>
                 <div className={"flex pt-[2.1rem] pb-[3.6rem]"}>
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[44%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[48%] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Tercih Ettiği Rol
+                    Preferred Position
                   </p>
                   <p
                     className={
@@ -118,8 +118,8 @@ export default function Profile() {
                   "pt-[3.4rem] font-['Inter'] font-[400] text-[1.8rem]"
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-                aut, odit laborum aliquam voluptatum nisi mollitia.{" "}
+                My name is Mert Gök. I am 29 years old. I studied Energy
+                engineering at Gazi University and I graduated in 2017.{" "}
               </p>{" "}
               <p
                 className={
@@ -127,8 +127,9 @@ export default function Profile() {
                 }
               >
                 {" "}
-                Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-                deserunt quam temporibus cumque magnam!
+                I love learning new things and doing research, which led me to
+                embark on a journey in software development. Additionally, I
+                enjoy flying drones and capturing unique photographs.
               </p>
             </div>
           </div>

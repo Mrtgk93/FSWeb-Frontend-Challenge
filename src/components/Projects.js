@@ -27,15 +27,16 @@ export default function Projects() {
               "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
             }
           >
-            Random Jokes
+            TV Series List
           </p>
           <p
             className={
-              " pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
+              " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[32vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
             }
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-            aut, odit laborum aliquam voluptatum nisi mollitia.
+            This is a TV show list application designed for users to search for
+            any TV show, view details about them, and save their favorite shows
+            to watch later. It is built using React, axios, and router.
           </p>
           <div
             className={"flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"}
@@ -95,7 +96,7 @@ export default function Projects() {
               Go to app->
             </a>
           </div>
-          <div className={" pt-[3.5rem] xl:pt-[8.3rem]"}>
+          <div className={" pt-[3.5rem] xl:pt-[5.9rem]"}>
             <img src={"./img/mockup1.png"} />
           </div>
         </div>{" "}
@@ -105,17 +106,16 @@ export default function Projects() {
               "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
             }
           >
-            Are you bored?
+            Shopping Cart
           </p>
           <p
             className={
-              "pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
+              "pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
             }
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-            aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus
-            ratione soluta aperiam sit voluptate? Dicta quod deserunt quam
-            temporibus cumque magnam!
+            It is a shopping cart application built using React and Context API
+            where users can add and remove products from their carts. Data is
+            stored in Local Storage which prevents loss of unwanted changes.
           </p>
           <div
             className={
@@ -134,14 +134,14 @@ export default function Projects() {
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
               }
             >
-              redux
+              vercel
             </p>
             <p
               className={
                 " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
               }
             >
-              axios
+              useContext
             </p>
           </div>
           <div className={" flex pt-[1rem] gap-[.9rem] pl-[2rem] xl:pl-[4rem]"}>
@@ -152,13 +152,6 @@ export default function Projects() {
             >
               router
             </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              vercel
-            </p>
           </div>
           <div
             className={
@@ -166,7 +159,8 @@ export default function Projects() {
             }
           >
             <a
-              href=""
+              target="_blank"
+              href="https://github.com/Mrtgk93/fsweb-s11g1-shopping-cart"
               className={
                 "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
               }
@@ -174,7 +168,8 @@ export default function Projects() {
               View on Github
             </a>
             <a
-              href=""
+              target="_blank"
+              href="https://mgshopping-cart.vercel.app/"
               className={
                 "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
               }
@@ -182,20 +177,20 @@ export default function Projects() {
               Go to app->
             </a>
           </div>
-          <div className={"  pt-[3.5rem]"}>
-            <img src={"./img/mockup1.png"} />
+          <div className={" pt-[3.5rem] xl:pt-[4.4rem]"}>
+            <img src={"./img/mockup2.png"} />
           </div>
         </div>
       </div>
       <div
         className={
-          "flex justify-center xl:w-[78.3vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[10.9rem]  "
+          "flex justify-center xl:w-[78.3vw] gap-[2rem] xl:gap-[5.5rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[10.9rem]  "
         }
       >
         <div>
           <p
             className={
-              "xl:text-[4.2rem] font-['Inter'] font-[500] pt-[1rem] xl-[0rem] xl:leading-[6.3rem] tracking-[0.01em] text-right"
+              "xl:text-[4.2rem] font-['Inter'] font-[500] pt-[1rem] xl:pl-[0.6rem] xl:leading-[6.3rem] tracking-[0.01em] text-right"
             }
           >
             Let's work together on
@@ -209,13 +204,15 @@ export default function Projects() {
             <br /> your next product.
           </p>
         </div>
-        <div>
+        <div className="xl:pl-[.4rem] xl:pt-[.3rem]">
           <p
             className={
-              "xl:text-[2.4rem] text-[#1769FF] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
+              "xl:text-[2.4rem]  text-[#1769FF] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
             }
           >
-            Github
+            <a target="_blank" href="https://github.com/Mrtgk93">
+              Github
+            </a>
           </p>
           <p
             className={
@@ -229,14 +226,19 @@ export default function Projects() {
               "xl:text-[2.4rem] text-[#0077B5] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
             }
           >
-            Linkedin
+            <a
+              target="_blank"
+              href="https://tr.linkedin.com/in/mert-g%C3%B6k-503563142"
+            >
+              Linkedin
+            </a>
           </p>
           <p
             className={
               "xl:text-[2.4rem] text-[#AF0C48] text-left xl:leading-[2.9rem] font-['Inter'] font-[500]"
             }
           >
-            Email
+            <a href="mailto:mrtgk93@hotmail.com">Email</a>
           </p>
         </div>
       </div>
