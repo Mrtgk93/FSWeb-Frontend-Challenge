@@ -1,3 +1,5 @@
+import { data } from "./data";
+
 export default function Profile() {
   return (
     <div
@@ -40,7 +42,7 @@ export default function Profile() {
                     "text-[1.8rem] font-['Inter'] w-[52%]  font-[400] leading-[2.178rem] tracking-[0.01rem]"
                   }
                 >
-                  01.10.1993
+                  {data.information.birth}
                 </p>
               </div>
               <div>
@@ -57,7 +59,7 @@ export default function Profile() {
                       "text-[1.8rem] font-['Inter'] w-[52%] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Istanbul
+                    {data.information.city}
                   </p>
                 </div>
                 <div className={"flex  pt-[2.1rem]"}>
@@ -74,7 +76,7 @@ export default function Profile() {
                       "text-[1.8rem] font-['Inter'] w-[46vw] xl:w-[15vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Gazi Uni Energy Eng. B.Sc. 2017
+                    {data.information.status}
                   </p>
                 </div>
                 <div className={"flex pt-[2.1rem] pb-[3.6rem]"}>
@@ -91,7 +93,7 @@ export default function Profile() {
                       "text-[1.8rem] font-['Inter'] w-[52%] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
-                    Frontend, UI
+                    {data.information.position}
                   </p>
                 </div>
               </div>
@@ -118,8 +120,7 @@ export default function Profile() {
                   "pt-[3.4rem] font-['Inter'] font-[400] text-[1.8rem]"
                 }
               >
-                My name is Mert Gök. I am 29 years old. I studied Energy
-                engineering at Gazi University and I graduated in 2017.{" "}
+                {data.about_me.text1}
               </p>{" "}
               <p
                 className={
@@ -127,9 +128,7 @@ export default function Profile() {
                 }
               >
                 {" "}
-                I love learning new things and doing research, which led me to
-                embark on a journey in software development. Additionally, I
-                enjoy flying drones and capturing unique photographs.
+                {data.about_me.text2}
               </p>
             </div>
           </div>

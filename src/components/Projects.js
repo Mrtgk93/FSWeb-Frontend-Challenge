@@ -1,8 +1,10 @@
+import { data } from "./data";
+
 export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18.4rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[11rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -17,230 +19,67 @@ export default function Projects() {
           "xl:flex xl:flex-row flex-col gap-[6.4rem] pt-[1.5rem] xl:pt-[3.6rem] "
         }
       >
-        <div
-          className={
-            "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem]  bg-[#DDEEFE]"
-          }
-        >
-          <p
-            className={
-              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
-            }
-          >
-            TV Series List
-          </p>
-          <p
-            className={
-              " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[32vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
-            }
-          >
-            This is a TV show list application designed for users to search for
-            any TV show, view details about them, and save their favorite shows
-            to watch later. It is built using React, axios, and router.
-          </p>
-          <div
-            className={"flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"}
-          >
+        {data.projects.map((item) => (
+          <div key={item.id} className={item.class}>
             <p
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
               }
             >
-              react
+              {item.name}
             </p>
             <p
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[32vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
               }
             >
-              vercel
+              {item.text}
             </p>
-            <p
+            <div
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "flex flex-wrap pl-[2rem] w-[86vw] xl:w-[25vw]  xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"
               }
             >
-              axios
-            </p>
-          </div>
-          <div className={"pt-[1rem] pl-[2rem] xl:pl-[4rem]"}>
-            <p
+              {item.skils.map((s) => (
+                <p
+                  className={
+                    " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                  }
+                >
+                  {s}
+                </p>
+              ))}
+            </div>
+
+            <div
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] w-[22vw] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
               }
             >
-              router
-            </p>
-          </div>
-          <div
-            className={
-              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
-            }
-          >
-            <a
-              target="_blank"
-              href="https://github.com/Mrtgk93/mg-diziler"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
-              }
-            >
-              View on Github
-            </a>
-            <a
-              target="_blank"
-              href="https://mg-diziler.vercel.app/"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
-              }
-            >
-              Go to app->
-            </a>
-          </div>
-          <div className={" pt-[3.5rem] xl:pt-[5.9rem]"}>
-            <img src={"./img/mockup1.png"} />
-          </div>
-        </div>{" "}
-        <div className={" w-[95vw] xl:w-[38vw] rounded-[1.2rem] bg-[#D9F6F1]"}>
-          <p
-            className={
-              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
-            }
-          >
-            Shopping Cart
-          </p>
-          <p
-            className={
-              "pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
-            }
-          >
-            It is a shopping cart application built using React and Context API
-            where users can add and remove products from their carts. Data is
-            stored in Local Storage which prevents loss of unwanted changes.
-          </p>
-          <div
-            className={
-              "flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] xl:pt-[1.8rem] pt-[2.7rem]"
-            }
-          >
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              react
-            </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              vercel
-            </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              useContext
-            </p>
-          </div>
-          <div className={" flex pt-[1rem] gap-[.9rem] pl-[2rem] xl:pl-[4rem]"}>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              router
-            </p>
-          </div>
-          <div
-            className={
-              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
-            }
-          >
-            <a
-              target="_blank"
-              href="https://github.com/Mrtgk93/fsweb-s11g1-shopping-cart"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
-              }
-            >
-              View on Github
-            </a>
-            <a
-              target="_blank"
-              href="https://mgshopping-cart.vercel.app/"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
-              }
-            >
-              Go to app->
-            </a>
-          </div>
-          <div className={" pt-[3.5rem] xl:pt-[4.4rem]"}>
-            <img src={"./img/mockup2.png"} />
-          </div>
-        </div>
-      </div>
-      <div
-        className={
-          "flex justify-center xl:w-[78.3vw] gap-[2rem] xl:gap-[5.5rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[10.9rem]  "
-        }
-      >
-        <div>
-          <p
-            className={
-              "xl:text-[4.2rem] font-['Inter'] font-[500] pt-[1rem] xl:pl-[0.6rem] xl:leading-[6.3rem] tracking-[0.01em] text-right"
-            }
-          >
-            Let's work together on
-            <span>
-              <div
+              <a
+                target="_blank"
+                href={item.gitlink}
                 className={
-                  "xl:w-[27rem] w-[6.5rem] mt-[-.6rem] ml-[3.1rem] mb-[-1.5rem] h-[.4rem] xl:h-[1.8rem] bg-[#82BBFF] rounded-[.4rem] xl:ml-[13rem] xl:mb-[-6.1rem] xl:mt-[-2.2rem]"
+                  "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
                 }
-              ></div>
-            </span>{" "}
-            <br /> your next product.
-          </p>
-        </div>
-        <div className="xl:pl-[.4rem] xl:pt-[.3rem]">
-          <p
-            className={
-              "xl:text-[2.4rem]  text-[#1769FF] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            <a target="_blank" href="https://github.com/Mrtgk93">
-              Github
-            </a>
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#0A0A14] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            Personal Blog
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#0077B5] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            <a
-              target="_blank"
-              href="https://tr.linkedin.com/in/mert-g%C3%B6k-503563142"
-            >
-              Linkedin
-            </a>
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#AF0C48] text-left xl:leading-[2.9rem] font-['Inter'] font-[500]"
-            }
-          >
-            <a href="mailto:mrtgk93@hotmail.com">Email</a>
-          </p>
-        </div>
+              >
+                View on Github
+              </a>
+              <a
+                target="_blank"
+                href={item.applink}
+                className={
+                  "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
+                }
+              >
+                Go to app->
+              </a>
+            </div>
+            <div className={" pt-[3.5rem] xl:pt-[5.9rem]"}>
+              <img src={item.img} />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

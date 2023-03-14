@@ -7,7 +7,7 @@ export default function Hero() {
     >
       <div
         className={
-          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[82vw] xl:w-[50vw]"
+          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[80vw] xl:w-[50vw]"
         }
       >
         <p
@@ -31,8 +31,8 @@ export default function Hero() {
               }
             ></div>
           </span>
-          developer. I can craft solid and scalable frontend products. Let’s
-          meet!
+          developer. I can craft solid and scalable frontend products. <br />
+          Let’s meet!
           <div className={"flex gap-[2rem] xl:mt-[0rem] mt-[2rem]"}>
             <a
               target="_blank"
@@ -79,12 +79,6 @@ export default function Hero() {
           "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end  justify-center"
         }
       >
-        {/* <div
-          className={
-            "bg-red-700 w-[34.1rem] h-[34.1rem] mt-[3.6rem] mt-[10rem] ml-[-2rem] rounded-[2.4rem] "
-          }
-        ></div> */}
-
         <img
           className={
             " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
