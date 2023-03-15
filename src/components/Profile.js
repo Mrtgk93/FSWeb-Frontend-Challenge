@@ -15,7 +15,11 @@ export default function Profile() {
         >
           Profile
         </p>
-        <div className={"flex xl:pt-[3.6rem]  xl:flex-row  flex-col "}>
+        <div
+          className={
+            "flex xl:pt-[3.6rem] lg:px-[.5rem] md:px-[2.5rem] 2xl:justify-center  xl:flex-row  flex-col "
+          }
+        >
           <div
             className={
               "flex xl:w-[34.5vw] w-[92vw] flex-col pt-[3.6rem] pl-[1rem] xl:pl-[4.3rem] xl:bg-white bg-[#8bd2d892] rounded-[1.2rem] xl:shadow-[9px_9px_0px_rgba(82,82,82,0.5)]  xl:pr-[9.1rem]"
@@ -66,14 +70,14 @@ export default function Profile() {
                   {" "}
                   <p
                     className={
-                      "text-[1.8rem] font['Inter'] w-[43vw] xl:w-[12vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font['Inter'] w-[43vw] 2xl:w-[25.5vw] xl:w-[12vw] font-[600] text-left leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     Education Status
                   </p>
                   <p
                     className={
-                      "text-[1.8rem] font-['Inter'] w-[46vw] xl:w-[15vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
+                      "text-[1.8rem] font-['Inter'] w-[46vw] xl:w-[15vw] 2xl:w-[30vw]  xl:pl-[1.2rem] font-[400] leading-[2.178rem] tracking-[0.01rem]"
                     }
                   >
                     {data.information.status}

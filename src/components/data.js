@@ -23,7 +23,7 @@ export const data = {
       applink: "https://mg-diziler.vercel.app/",
       img: "./img/mockup1.png",
       class:
-        "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem]  bg-[#DDEEFE]",
+        "w-[95vw] md:w-[42vw] lg:w-[42vw] xl:mb-[0rem] mb-[2rem] xl:w-[34.72vw] rounded-[1.2rem]  bg-[#DDEEFE]",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ export const data = {
       applink: "https://mgshopping-cart.vercel.app/",
       img: "./img/mockup2.png",
       class:
-        "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem]  bg-[#D9F6F1]",
+        "w-[95vw] md:w-[42vw] lg:w-[42vw] xl:mb-[0rem] mb-[2rem] xl:w-[34.72vw] rounded-[1.2rem]  bg-[#D9F6F1]",
     },
   ],
 };

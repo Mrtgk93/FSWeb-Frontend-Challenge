@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <div
       className={
-        "flex-col-reverse px-[2rem] flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+        "flex-col-reverse px-[2rem] md:px-[5rem] md:justify-evenly md:flex-row flex 2xl:flex-row xl:flex-row xl:pt-[15.1rem] 2xl:pt-[15.1rem] 2xl:justify-evenly xl:justify-evenly xl:pl-[16.2rem] 2xl:pl-[16.2rem] xl:pr-[17.1rem] 2xl:pr-[17.1rem] pb-[2rem]  2xl:pb-[9.4rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
       <div
         className={
-          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[80vw] xl:w-[50vw]"
+          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[95vw] md:w-[55vw] xl:w-[50vw]"
         }
       >
         <p
@@ -76,12 +76,12 @@ export default function Hero() {
       </div>
       <div
         className={
-          "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end  justify-center"
+          "flex xl:h-[39%] xl:w-[35vw] md:w-[30vw]  pt-[5.6rem] xl:justify-end  justify-center"
         }
       >
         <img
           className={
-            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
+            " rounded-[2.2rem]  w-[25rem] h-[25rem] md:w-[22rem] md:h-[22rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
           src="./img/b1455ac9-ecbb-4385-91f4-957c77f9aa44.JPG"
           alt="Image description"

@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[11rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] w-[100vw]  justify-center xl:pt-[9.3rem] px-[1rem] lg:px-[5rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[11rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -16,7 +16,7 @@ export default function Projects() {
       </h2>
       <div
         className={
-          "xl:flex xl:flex-row flex-col gap-[6.4rem] pt-[1.5rem] xl:pt-[3.6rem] "
+          "flex xl:flex-row  lg:flex-row flex-col  md:flex-row md:justify-center lg:justify-center md:gap-[6.4rem] lg:gap-[6.4rem] xl:gap-[6.4rem] pt-[1.5rem] xl:pt-[3.6rem] "
         }
       >
         {data.projects.map((item) => (
@@ -30,14 +30,14 @@ export default function Projects() {
             </p>
             <p
               className={
-                " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[32vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
+                " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] lg:pr-[3vw] pt-[1.9rem] xl:w-[32vw] lg:w-[42vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
               }
             >
               {item.text}
             </p>
             <div
               className={
-                "flex flex-wrap pl-[2rem] w-[86vw] xl:w-[25vw]  xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"
+                "flex flex-wrap pl-[2rem] lg:w-[40vw] md:w-[40vw] w-[86vw] xl:w-[25vw]  xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"
               }
             >
               {item.skils.map((s) => (
@@ -53,7 +53,7 @@ export default function Projects() {
 
             <div
               className={
-                "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
+                "flex  pl-[2rem] md:pl-[1rem] justify-between md:pr-[1rem] pr-[3.7vw] xl:pr-[3.2vw] lg:pr-[1rem] xl:w-[34.72vw] lg:w-[42vw] md:w-[42vw] pt-[3.5rem] xl:pl-[2.9vw]"
               }
             >
               <a
@@ -75,7 +75,11 @@ export default function Projects() {
                 Go to app->
               </a>
             </div>
-            <div className={" pt-[3.5rem] xl:pt-[5.9rem]"}>
+            <div
+              className={
+                " pt-[3.5rem] xl:w-[34.72vw] lg:w-[42vw] md:[42vw] xl:pt-[5.9rem]"
+              }
+            >
               <img src={item.img} />
             </div>
           </div>
