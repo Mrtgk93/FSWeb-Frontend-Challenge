@@ -7,7 +7,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className=" navbar fixed top-0 w-full flex h-[7rem]  text-white bg-slate-700 justify-between px-[5rem] items-center">
+    <nav className=" navbar fixed top-0 w-full flex h-[7rem]  text-white bg-slate-700 justify-between px-[3rem] xl:px-[5rem] lg:px-[5rem] md:px-[5rem] sm:px-[5rem] items-center">
       <h1 className="text-[2rem] font-[600] font-['Playfair_Display']">
         MERT GÖK - CV
       </h1>
