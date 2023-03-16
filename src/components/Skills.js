@@ -1,4 +1,4 @@
-export default function Skills() {
+export default function Skills({ geceModu }) {
   return (
     <div
       className={
@@ -19,7 +19,9 @@ export default function Skills() {
         </p>
         <div
           className={
-            "flex flex-wrap lg:px-[5rem] md:px-[5rem]  font-[500] text-[#777777] text-[1.5rem] xl:text-[2.4rem] justify-between leading-[36px] "
+            geceModu
+              ? "flex flex-wrap lg:px-[5rem] md:px-[5rem]  font-[500] text-[#ffffff] text-[1.5rem] xl:text-[2.4rem] justify-between leading-[36px] "
+              : "flex flex-wrap lg:px-[5rem] md:px-[5rem]  font-[500] text-[#777777] text-[1.5rem] xl:text-[2.4rem] justify-between leading-[36px] "
           }
         >
           <div className={"flex-col "}>

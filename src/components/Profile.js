@@ -1,10 +1,12 @@
 import { data } from "./data";
 
-export default function Profile() {
+export default function Profile({ geceModu }) {
   return (
     <div
       className={
-        "bg-[#F4F4F4] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[1.5rem] xl:px-[2rem] xl:pr-[21.6rem]"
+        geceModu
+          ? "bg-[#454b4e] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[1.5rem] xl:px-[2rem] xl:pr-[21.6rem]"
+          : "bg-[#F4F4F4] py-[2rem] xl:py-[7.2rem] xl:pl-[19.3rem] px-[1.5rem] xl:px-[2rem] xl:pr-[21.6rem]"
       }
     >
       <div className={"flex  flex-col"}>

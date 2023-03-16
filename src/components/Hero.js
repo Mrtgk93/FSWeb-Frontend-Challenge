@@ -1,8 +1,10 @@
-export default function Hero() {
+export default function Hero({ geceModu }) {
   return (
     <div
       className={
-        "flex-col-reverse px-[2rem] md:px-[5rem] md:justify-evenly md:flex-row flex 2xl:flex-row xl:flex-row xl:pt-[15.1rem] 2xl:pt-[15.1rem] 2xl:justify-evenly xl:justify-evenly xl:pl-[16.2rem] 2xl:pl-[16.2rem] xl:pr-[17.1rem] 2xl:pr-[17.1rem] pb-[2rem]  2xl:pb-[9.4rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+        geceModu
+          ? "flex-col-reverse px-[2rem] pt-[8rem] md:px-[5rem] md:justify-evenly md:flex-row flex 2xl:flex-row xl:flex-row xl:pt-[15.1rem] 2xl:pt-[15.1rem] 2xl:justify-evenly xl:justify-evenly xl:pl-[16.2rem] 2xl:pl-[16.2rem] xl:pr-[17.1rem] 2xl:pr-[17.1rem] pb-[2rem]  2xl:pb-[9.4rem] xl:pb-[9.4rem] bg-[#454b4e]"
+          : "flex-col-reverse px-[2rem] pt-[8rem] md:px-[5rem] md:justify-evenly md:flex-row flex 2xl:flex-row xl:flex-row xl:pt-[15.1rem] 2xl:pt-[15.1rem] 2xl:justify-evenly xl:justify-evenly xl:pl-[16.2rem] 2xl:pl-[16.2rem] xl:pr-[17.1rem] 2xl:pr-[17.1rem] pb-[2rem]  2xl:pb-[9.4rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
       <div
