@@ -1,8 +1,10 @@
+import { data } from "./data";
+
 export default function Projects() {
   return (
     <div
       className={
-        "flex pt-[2rem] xl:pt-[9.3rem] px-[1rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[18.4rem] xl:pr-[18.3rem] flex-col"
+        "flex pt-[2rem] w-[100vw]  justify-center xl:pt-[9.3rem] px-[1rem] lg:px-[5rem] xl:pl-[19.3rem] pb-[2rem] xl:pb-[11rem] xl:pr-[18.3rem] flex-col"
       }
     >
       <h2
@@ -14,231 +16,74 @@ export default function Projects() {
       </h2>
       <div
         className={
-          "xl:flex xl:flex-row flex-col gap-[6.4rem] pt-[1.5rem] xl:pt-[3.6rem] "
+          "flex xl:flex-row  lg:flex-row flex-col  md:flex-row md:justify-center lg:justify-center md:gap-[6.4rem] lg:gap-[6.4rem] xl:gap-[6.4rem] pt-[1.5rem] xl:pt-[3.6rem] "
         }
       >
-        <div
-          className={
-            "w-[95vw] xl:mb-[0rem] mb-[2rem] xl:w-[38vw] rounded-[1.2rem] bg-[#DDEEFE]"
-          }
-        >
-          <p
-            className={
-              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
-            }
-          >
-            Random Jokes
-          </p>
-          <p
-            className={
-              " pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
-            }
-          >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-            aut, odit laborum aliquam voluptatum nisi mollitia.
-          </p>
-          <div
-            className={"flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"}
-          >
+        {data.projects.map((item) => (
+          <div key={item.id} className={item.class}>
             <p
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
               }
             >
-              react
+              {item.name}
             </p>
             <p
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                " pl-[2rem] pr-[1rem] xl:pr-[0rem] xl:pl-[4rem] lg:pr-[3vw] pt-[1.9rem] xl:w-[32vw] lg:w-[42vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
               }
             >
-              vercel
+              {item.text}
             </p>
-            <p
+            <div
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "flex flex-wrap pl-[2rem] lg:w-[40vw] md:w-[40vw] w-[86vw] xl:w-[25vw]  xl:pl-[4rem] gap-[.9rem] pt-[2.7rem]"
               }
             >
-              axios
-            </p>
-          </div>
-          <div className={"pt-[1rem] pl-[2rem] xl:pl-[4rem]"}>
-            <p
+              {item.skils.map((s) => (
+                <p
+                  className={
+                    " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                  }
+                >
+                  {s}
+                </p>
+              ))}
+            </div>
+
+            <div
               className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] w-[22vw] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
+                "flex  pl-[2rem] md:pl-[1rem] justify-between md:pr-[1rem] pr-[3.7vw] xl:pr-[3.2vw] lg:pr-[1rem] xl:w-[34.72vw] lg:w-[42vw] md:w-[42vw] pt-[3.5rem] xl:pl-[2.9vw]"
               }
             >
-              router
-            </p>
-          </div>
-          <div
-            className={
-              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
-            }
-          >
-            <a
-              target="_blank"
-              href="https://github.com/Mrtgk93/mg-diziler"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
-              }
-            >
-              View on Github
-            </a>
-            <a
-              target="_blank"
-              href="https://mg-diziler.vercel.app/"
-              className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
-              }
-            >
-              Go to app->
-            </a>
-          </div>
-          <div className={" pt-[3.5rem] xl:pt-[8.3rem]"}>
-            <img src={"./img/mockup1.png"} />
-          </div>
-        </div>{" "}
-        <div className={" w-[95vw] xl:w-[38vw] rounded-[1.2rem] bg-[#D9F6F1]"}>
-          <p
-            className={
-              "font-['Playfair_Display'] pl-[2rem] xl:pl-[4rem] pt-[4.6rem] text-left leading-[3.86rem] tracking-wider font-[700] text-[2.9rem]"
-            }
-          >
-            Are you bored?
-          </p>
-          <p
-            className={
-              "pl-[2rem] xl:pl-[4rem] pt-[1.9rem] xl:w-[29vw] leading-[2.4rem] font-['Inter'] font-[400] text-[1.6rem] text-left"
-            }
-          >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-            aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus
-            ratione soluta aperiam sit voluptate? Dicta quod deserunt quam
-            temporibus cumque magnam!
-          </p>
-          <div
-            className={
-              "flex pl-[2rem] xl:pl-[4rem] gap-[.9rem] xl:pt-[1.8rem] pt-[2.7rem]"
-            }
-          >
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              react
-            </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              redux
-            </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              axios
-            </p>
-          </div>
-          <div className={" flex pt-[1rem] gap-[.9rem] pl-[2rem] xl:pl-[4rem]"}>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              router
-            </p>
-            <p
-              className={
-                " bg-white font-['Playfair_Display'] font-[700] text-[1.6rem] tracking-wider leading-[1.6rem] xl:w-[6.5vw] rounded-[7.6rem] px-[2rem] pt-[.6rem] pb-[1rem]"
-              }
-            >
-              vercel
-            </p>
-          </div>
-          <div
-            className={
-              "flex  pl-[2rem] justify-between xl:pr-[4.9rem] xl:gap-[15rem] pt-[3.5rem] xl:pl-[4rem]"
-            }
-          >
-            <a
-              href=""
-              className={
-                "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
-              }
-            >
-              View on Github
-            </a>
-            <a
-              href=""
-              className={
-                "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
-              }
-            >
-              Go to app->
-            </a>
-          </div>
-          <div className={"  pt-[3.5rem]"}>
-            <img src={"./img/mockup1.png"} />
-          </div>
-        </div>
-      </div>
-      <div
-        className={
-          "flex justify-center xl:w-[78.3vw] gap-[2rem] xl:gap-[5.8rem] xl:px-[14.8rem] pt-[3rem] xl:pt-[10.9rem]  "
-        }
-      >
-        <div>
-          <p
-            className={
-              "xl:text-[4.2rem] font-['Inter'] font-[500] pt-[1rem] xl-[0rem] xl:leading-[6.3rem] tracking-[0.01em] text-right"
-            }
-          >
-            Let's work together on
-            <span>
-              <div
+              <a
+                target="_blank"
+                href={item.gitlink}
                 className={
-                  "xl:w-[27rem] w-[6.5rem] mt-[-.6rem] ml-[3.1rem] mb-[-1.5rem] h-[.4rem] xl:h-[1.8rem] bg-[#82BBFF] rounded-[.4rem] xl:ml-[13rem] xl:mb-[-6.1rem] xl:mt-[-2.2rem]"
+                  "font-[600] font-['Inter'] text-[2rem] leading-[3rem] "
                 }
-              ></div>
-            </span>{" "}
-            <br /> your next product.
-          </p>
-        </div>
-        <div>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#1769FF] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            Github
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#0A0A14] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            Personal Blog
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#0077B5] text-left xl:leading-[3.6rem] font-['Inter'] font-[500]"
-            }
-          >
-            Linkedin
-          </p>
-          <p
-            className={
-              "xl:text-[2.4rem] text-[#AF0C48] text-left xl:leading-[2.9rem] font-['Inter'] font-[500]"
-            }
-          >
-            Email
-          </p>
-        </div>
+              >
+                View on Github
+              </a>
+              <a
+                target="_blank"
+                href={item.applink}
+                className={
+                  "font-[600] font-['Inter'] text-[2rem] pr-[2.5rem] xl:pr-[0rem] leading-[3rem] "
+                }
+              >
+                Go to app->
+              </a>
+            </div>
+            <div
+              className={
+                " pt-[3.5rem] xl:w-[34.72vw] lg:w-[42vw] md:[42vw] xl:pt-[5.9rem]"
+              }
+            >
+              <img src={item.img} />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

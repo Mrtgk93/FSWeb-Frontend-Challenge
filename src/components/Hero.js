@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <div
       className={
-        "flex-col-reverse px-[2rem]   flex xl:flex-row xl:pt-[15.1rem] xl:justify-evenly xl:pl-[16.2rem] xl:pr-[17.1rem] pb-[2rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
+        "flex-col-reverse px-[2rem] md:px-[5rem] md:justify-evenly md:flex-row flex 2xl:flex-row xl:flex-row xl:pt-[15.1rem] 2xl:pt-[15.1rem] 2xl:justify-evenly xl:justify-evenly xl:pl-[16.2rem] 2xl:pl-[16.2rem] xl:pr-[17.1rem] 2xl:pr-[17.1rem] pb-[2rem]  2xl:pb-[9.4rem] xl:pb-[9.4rem] bg-[#F4F4F4]"
       }
     >
       <div
         className={
-          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[82vw] xl:w-[50vw]"
+          "text-left  pl-[1.6rem] xl:pt-[0rem] pt-[2rem] w-[95vw] md:w-[55vw] xl:w-[50vw]"
         }
       >
         <p
@@ -23,16 +23,16 @@ export default function Hero() {
             " font-['Inter'] xl:tracking-[.01em] font-[500] text-[2rem] xl:text-[4.2rem] xl:leading-[6.4rem] "
           }
         >
-          I’m Almila. I’m a full-stack{" "}
+          I’m Mert. I’m a front-end{" "}
           <span>
             <div
               className={
-                "xl:w-[14.4rem] w-[9rem] ml-[-1rem] mt-[-1.4rem] mb-[-.7rem] h-[2rem] xl:h-[3.2rem] bg-[#E92577] rounded xl:ml-[-1rem]xl:mb-[-7.2rem] xl:mt-[-2.8rem]"
+                "xl:w-[15.3rem] w-[8rem] ml-[-1rem] mt-[-1.4rem] mb-[-.7rem] h-[2rem] xl:h-[3.2rem] bg-[#FF6961] rounded xl:ml-[-1rem]xl:mb-[-7.2rem] xl:mt-[-2.8rem]"
               }
             ></div>
           </span>
-          developer. I can craft solid and scalable frontend products. Let’s
-          meet!
+          developer. I can craft solid and scalable frontend products. <br />
+          Let’s meet!
           <div className={"flex gap-[2rem] xl:mt-[0rem] mt-[2rem]"}>
             <a
               target="_blank"
@@ -57,7 +57,7 @@ export default function Hero() {
           </div>
           <p
             className={
-              "xl:text-[1.8rem] text-[1.1rem] xl:leading-[3.2rem] font-['Inter'] xl:tracking-wider mt-[1rem]  xl:mt-[2.5rem]"
+              "xl:text-[1.8rem] text-[1.1rem]  xl:leading-[3.2rem] font-['Inter'] xl:tracking-wider mt-[1rem]  xl:mt-[2.5rem]"
             }
           >
             Currently <span className={" text-[#AF0C48]"}>Freelancing</span> for
@@ -69,27 +69,21 @@ export default function Hero() {
             <br />
             Invite me to join your team ->{" "}
             <span className={" text-[#AF0C48] underline underline-offset-4"}>
-              pratamaiosi@gmail.com
+              <a href="mailto:mrtgk93@hotmail.com"> mrtgk93@hotmail.com</a>
             </span>
           </p>
         </p>
       </div>
       <div
         className={
-          "flex xl:h-[39%] xl:w-[35vw]  pt-[5.6rem] xl:justify-end  justify-center"
+          "flex xl:h-[39%] xl:w-[35vw] md:w-[30vw]  pt-[5.6rem] xl:justify-end  justify-center"
         }
       >
-        {/* <div
-          className={
-            "bg-red-700 w-[34.1rem] h-[34.1rem] mt-[3.6rem] mt-[10rem] ml-[-2rem] rounded-[2.4rem] "
-          }
-        ></div> */}
-
         <img
           className={
-            " rounded-[2.2rem]  w-[25rem] h-[25rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
+            " rounded-[2.2rem]  w-[25rem] h-[25rem] md:w-[22rem] md:h-[22rem] xl:w-[34.1rem] xl:h-[34.1rem]   shadow-[-2rem_-2rem_0rem_rgba(250,17,17,0.78)]"
           }
-          src="./img/tonymontana_ape.png"
+          src="./img/b1455ac9-ecbb-4385-91f4-957c77f9aa44.JPG"
           alt="Image description"
         />
       </div>
